@@ -1,20 +1,20 @@
 ---
-title: ✉️ Contact me
+title: Contact
 showtoc: false
 hidemeta: true
 ShowBreadCrumbs: false
 comments: false
-ShowShareButtons: false
 ---
 
-You want to contact me, no worries! Here is my email: [flavien1801[at]protonmail.com](mailto:flavien1801@protonmail.com).
+You can contact me by:
+- Email: [flavien1801@protonmail.com](mailto:flavien1801@protonmail.com).
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/flavien-darche/).
 
 ---
 
 ### Be sure about my identity
 
-Here is my GPG key to make sure your messages stay between us.
-
+You can find my PGP key below to sign your messages.
 
 {{< collapse summary="My key" >}}
 
