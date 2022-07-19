@@ -1,4 +1,70 @@
 baseURL: https://e-n-0.github.io/
 languageCode: FR-fr
-title: Flavien Darche
+title: Flavien Darche - IT Stuffs
 theme: "PaperMod"
+
+enableEmoji: true
+enableRobotsTXT: true
+
+params:
+  env: production
+  author: Flavien Darche
+  ShowCodeCopyButtons: true
+  ShowBreadcrumbs: true
+  ShowRssButtonInSectionTermList: true
+  ShowReadingTime: true
+  ShowToc: true
+  comments: true
+
+  mainSections:
+    - blog
+
+  homeInfoParams:
+    Title: Bonjour 👋
+    Content: |
+      - I am a 23 years old French student at [Epita](https://www.epita.fr/) majoring in cyber security.
+      - You can check out my [Github](https://github.com/e-n-0) profile. You will find all projects from blog posts.
+      - Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/francois-dtm/) or send me a [mail](/contact/).
+      -
+      - You will find in this website some blog posts about various IT topics, such as: mobile & web developpement, blockchain & crypto, cybersecurity or devops.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/e-n-0"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/flavien-darche/"
+
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"]
+
+  assets:
+    favicon: "/favicon-16x16.png"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon-32x32.png"
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
