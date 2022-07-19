@@ -45,6 +45,7 @@ params:
     safari_pinned_tab: "/favicon-32x32.png"
 
   # Open graph Config:
+  homepage: true
   name: "Flavien Darche - Personnal website"
   title: "Blog IT Stuff | Home"
   description: "Discover valuable contents about various IT topics, such as: mobile & web developpement, blockchain & crypto, cybersecurity or devops."
